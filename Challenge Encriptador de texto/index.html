@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="imagen_candado" src="assets/candado1.png" alt="Imagen de marca de agua">
+    </header>
+
+    <main>
+        <form class="container__form">
+            <textarea class="container__form__mensaje" name="texto" id="" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="container__alerta">
+                    <img class="container__alerta__logo" src="assets/logo-adv.svg" alt="Logo de advertancia">
+                    <spam class="container__alerta__spam">Solo letras minúsculas y sin acentos</spam>
+                </div>
+                <div class="container__botones">
+                    <button class="container__botones_encriptar">Encriptar</button>
+                    <button class="container__botones_desencriptar" id="desencriptar">Desencriptar</button>
+                </div>
+        </form>
+
+        <aside>
+            <img class="imagen__muneca" src="assets/muneca.png" alt="Logo de ausencia de texto">
+            <div class="container__mensajes">
+                <h3 class="container__mensajes__titulo">Ningún mensaje fue encontrado</h3>
+                <p class="container__mensajes__texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <button class="boton__copiar" id="copiar">Copiar</button>
+
+    
+        </aside>
+
+    </main>
+
+
+    <footer>
+        <p class="texto-piepagina">Lina Figueredo(2024).</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
